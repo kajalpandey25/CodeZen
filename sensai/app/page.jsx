@@ -121,7 +121,7 @@ export default function Home() {
                         <p className="text-sm text-muted-foreground">
                           {testimonial.role}
                         </p>
-                        <p className="text-sm text-primary">
+                        <p className="text-sm text-blue-600">
                           {testimonial.company}
                         </p>
                       </div>
@@ -150,10 +150,10 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">
-              Frequently Asked Questions
+            Your  <span className="text-blue-600">AI Mentor's</span> Quick Guide
             </h2>
             <p className="text-muted-foreground">
-              Find answers to common questions about our platform
+            Get quick answers to your questions about our platform
             </p>
           </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
         <div className="mx-auto py-24 gradient rounded-lg">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter text-primary-foreground sm:text-4xl md:text-5xl">
-              Ready to Accelerate Your Career?
+            Ready to Land Your Dream Job?
             </h2>
             <p className="mx-auto max-w-[600px] text-primary-foreground/80 md:text-xl">
               Join thousands of professionals who are advancing their careers
@@ -187,7 +187,7 @@ export default function Home() {
               <Button
                 size="lg"
                 variant="secondary"
-                className="h-11 mt-5 animate-bounce"
+                className="h-11 mt-5 animate-bounce bg-blue-700"
               >
                 Start Your Journey Today <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

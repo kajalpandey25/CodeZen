@@ -31,7 +31,7 @@ const HeroSection = () => {
       <div className="space-y-6 text-center">
         <div className="space-y-6 mx-auto">
           <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title">
-            Your AI CarrerGenie <span className="text-blue-600">for</span>
+            Your AI CareerGenie <span className="text-blue-600">for</span>
             <br />
             Professional Success
           </h1>
